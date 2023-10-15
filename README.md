@@ -19,3 +19,7 @@
 
 # screenshot About the Project 
 
+<p> Get All data in collections </p>
+<img src = "./screenshot/download (85).png"/>
+
+
