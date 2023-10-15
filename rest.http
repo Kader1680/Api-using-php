@@ -1,0 +1,45 @@
+GET http://localhost:3000/product/g
+
+###
+
+# GET http://localhost:3000/g/hjhgj
+# ###
+# GET http://localhost:3000/3
+# ###
+
+POST http://localhost:3000/product/p
+Content-Type: application/json
+
+
+ 
+{
+    "Name" : "Zahra", 
+    "Price" : 3459
+}
+
+
+
+POST http://localhost:3000/test
+Content-Type: application/json
+
+{
+    "name" : "Zihot "
+}
+
+###
+DELETE http://localhost:3000/product/652b16dd61f618f09953f637
+Content-Type:  application/json
+
+###
+
+###
+DELETE http://localhost:3000/product/deleteALLProduct
+Content-Type:  application/json
+
+
+PATCH http://localhost:3000/product/652b16dd61f618f09953f637
+Content-Type:  application/json
+{
+    "Name" : "love", 
+    "Price" : 4567
+}

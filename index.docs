@@ -1,0 +1,28 @@
+to run the project => node app.js
+
+
+const http = require("http")
+
+const server = http.createServer((req, res)=>{
+
+    if (req.url === "/") {
+        if (req.method === "GET") {
+            console.log("you have get methods")
+        }
+        res.write("page from the /")
+        res.end()
+    }else if(req.url === "/a"){
+        res.write("a")
+        res.end()
+    }else{
+        res.write("sorry 404 not found")
+        res.end()
+    }
+})
+
+
+
+
+
+
+npx nodemon myapp.js 
